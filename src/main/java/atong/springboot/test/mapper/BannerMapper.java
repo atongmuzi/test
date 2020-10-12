@@ -12,4 +12,5 @@ public interface BannerMapper {
     Integer findId();
     @Insert("insert into atong(phone) values (#{phone})")
     int insert(testDTO t);
+
 }
