@@ -24,15 +24,15 @@ public class TestApplicationTests extends AbstractTestNGSpringContextTests {
     }
     @Test
     public void contextLoads() {
-        Integer id= bannerMapper.findId();
-        System.out.println(id+"hahaha");
-        testDTO t = new testDTO();
-        t.setName("hahaha1");
-    //    Integer insertId = bannerMapper.insert(t);
-        Boolean isPort =this.env.containsProperty("server.port");
-        String url1 = this.env.getProperty("spring.my-list.url[0]");
-        String url2 = this.env.getProperty("spring.my-list.url[1]");
-        System.out.println(isPort + " " + url1 + " "+url2);
+//        Integer id= bannerMapper.findId();
+//        System.out.println(id+"hahaha");
+//        testDTO t = new testDTO();
+//        t.setName("hahaha1");
+//    //    Integer insertId = bannerMapper.insert(t);
+//        Boolean isPort =this.env.containsProperty("server.port");
+//        String url1 = this.env.getProperty("spring.my-list.url[0]");
+//        String url2 = this.env.getProperty("spring.my-list.url[1]");
+//        System.out.println(isPort + " " + url1 + " "+url2);
         System.out.println("ahhahha");
         System.out.println("lalall");
         System.out.println("lalalahahah");
