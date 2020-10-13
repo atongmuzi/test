@@ -12,11 +12,11 @@ import javax.annotation.Resource;
 
 @SpringBootTest
 public class TestApplicationTests extends AbstractTestNGSpringContextTests {
-
-    @Resource
-    BannerMapper bannerMapper;
-    @Resource
-    Environment env;
+//
+//    @Resource
+//    BannerMapper bannerMapper;
+//    @Resource
+//    Environment env;
 
     @BeforeClass
     public void setParam(){
