@@ -34,5 +34,6 @@ public class TestApplicationTests extends AbstractTestNGSpringContextTests {
         String url2 = this.env.getProperty("spring.my-list.url[1]");
         System.out.println(isPort + " " + url1 + " "+url2);
         System.out.println("ahhahha");
+        System.out.println("lalall");
     }
 }
