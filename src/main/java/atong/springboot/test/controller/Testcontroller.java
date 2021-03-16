@@ -24,7 +24,7 @@ public class Testcontroller {
     @Resource
     Environment environment;
 
-    @GetMapping(value = "/postbean")
+    @PostMapping(value = "/postbean")
     @ResponseBody
     public String postbean(User user){
         request.setAttribute("user",user);
